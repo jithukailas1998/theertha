@@ -3,7 +3,6 @@ import 'package:theertha/dashboard.dart';
 import 'package:theertha/more.dart';
 import 'package:theertha/products.dart';
 
-
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -85,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_basket),
-            title: Text("Products"),
+            title: Text("Productss"),
             //backgroundColor: Colors.yellow
           ),
           BottomNavigationBarItem(
